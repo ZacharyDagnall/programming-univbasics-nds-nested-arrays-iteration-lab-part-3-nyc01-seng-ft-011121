@@ -9,6 +9,8 @@ end
 def join_string_1D(arr) #some mild flattening
   sent = ""
   for j in arr.length do
-    if  arr[j].class
+    if  arr[j].class == String do
+      sent +=arr[j]
+    end
   end 
 end
