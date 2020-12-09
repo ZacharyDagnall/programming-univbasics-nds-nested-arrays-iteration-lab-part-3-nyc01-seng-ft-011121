@@ -1,7 +1,7 @@
 def join_nested_strings(src)
   sentence = ""
   for i in 0...src.length do
-     sentence += join_string_1D(src[i])
+     sentence += " " + join_string_1D(src[i])
   end
   sentence
 end
