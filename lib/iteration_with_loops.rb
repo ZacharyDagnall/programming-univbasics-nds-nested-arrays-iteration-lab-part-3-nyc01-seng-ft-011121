@@ -13,4 +13,5 @@ def join_string_1D(arr) #some mild flattening
       sent +=arr[j]
     end
   end 
+  sent
 end
